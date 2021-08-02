@@ -23,6 +23,7 @@ namespace SingleResponsibilityPrinciple
             details.empId = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Employee age:");
             details.empAge= Convert.ToInt32(Console.ReadLine());
+            //storing objet in the list
             employees.Add(details);
             return employees;
         }
